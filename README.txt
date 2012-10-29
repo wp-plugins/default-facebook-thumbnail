@@ -39,6 +39,9 @@ That seems to go beyond the scope of this simple plugin, but I may come out with
 
 == Changelog ==
 
+= 0.3 =
+* Added Screenshot
+
 = 0.2 =
 * Initial SVN push.
 * Readme.txt fix
