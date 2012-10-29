@@ -1,7 +1,7 @@
 	<?php
 	/*
 	Plugin Name: Default Facebook Thumbnails
-	Plugin URI: http://www.austinkpickett.com
+	Plugin URI: http://wordpress.org/extend/plugins/default-facebook-thumbnail/
 	Description: This plugin allows you to create a Default thumbnails on Facebook when posting your link.
 	Version: 0.1
 	Author: Austin K. Pickett
