@@ -49,5 +49,8 @@
 				echo '<meta property="og:image" content="'.get_option('upload_image').'" />';		
 		}
 	}
+ob_start();
+session_start();
 $fb_thumbnails = new mult_fb_thumbnail();
+ob_clean();
 ?>
