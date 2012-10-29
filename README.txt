@@ -38,6 +38,8 @@ That seems to go beyond the scope of this simple plugin, but I may come out with
 1. Enter the URL or upload the image for your thumbnail
 
 == Changelog ==
+= 0.3 = 
+* Added Screen shot
 
 = 0.2 =
 * Initial SVN push.
