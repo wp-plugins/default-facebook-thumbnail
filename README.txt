@@ -4,7 +4,7 @@ Donate link:
 Tags: facebook, thumbnail, link
 Requires at least: 3.0.1
 Tested up to: 3.4
-Stable tag: 0.3
+Stable tag: 0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,10 @@ That seems to go beyond the scope of this simple plugin, but I may come out with
 1. Enter the URL or upload the image for your thumbnail
 
 == Changelog ==
+
+= 0.4 =
+* header fix.
+
 = 0.3 = 
 * Added Screen shot
 
@@ -49,4 +53,4 @@ That seems to go beyond the scope of this simple plugin, but I may come out with
 == Upgrade Notice ==
 
 = 0.2 =
-This has a header fix, upgrade immediately.
+* This has a header fix, upgrade immediately.
