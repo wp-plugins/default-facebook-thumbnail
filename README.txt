@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: austinpickett
-Donate link: 
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2ZQUZXCYXH6C2
 Tags: facebook, thumbnail, link
 Requires at least: 3.0.1
 Tested up to: 3.4
