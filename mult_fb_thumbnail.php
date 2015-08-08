@@ -3,7 +3,7 @@
 Plugin Name: Default Facebook Thumbnails
 Plugin URI: http://wordpress.org/extend/plugins/default-facebook-thumbnail/
 Description: This plugin allows you to create a Default thumbnails on Facebook when posting your link.
-Version: 0.4
+Version: 0.5
 Author: Austin K. Pickett
 Author URI: http://www.austinkpickett.com
 License: GPL2
@@ -41,7 +41,7 @@ class mult_fb_thumbnail {
 		register_setting('fb_thumb_opt', 'upload_image');
 	}		
 	public static function print_url() {
-		echo '<meta property="og:image" content="'.get_option('upload_image').'" />';		
+		echo '<meta property="og:image" content="'.strip_tags(get_option('upload_image')).'" />';		
 	}
 }
 session_start();
