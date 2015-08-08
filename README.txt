@@ -4,14 +4,13 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: facebook, thumbnail, link
 Requires at least: 3.0.1
 Tested up to: 3.4
-Stable tag: 0.4
+Stable tag: 0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin adds a og:image tag to your head with the input/upload of the image in the settings.
-
 == Description ==
 
+This plugin adds a og:image tag to your head with the input/upload of the image in the settings.
 
 == Installation ==
 
@@ -39,6 +38,10 @@ That seems to go beyond the scope of this simple plugin, but I may come out with
 
 == Changelog ==
 
+= 0.5 =
+* Sanitized inputs
+* code cleanup
+
 = 0.4 =
 * header fix.
 
@@ -51,6 +54,9 @@ That seems to go beyond the scope of this simple plugin, but I may come out with
 * ob and session clears
 
 == Upgrade Notice ==
+
+= 0.5 =
+* This is a security fix. Upgrade immediately
 
 = 0.2 =
 * This has a header fix, upgrade immediately.

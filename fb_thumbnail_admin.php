@@ -1,5 +1,4 @@
 <?php
-
 	if($_POST['fb_thumb_hidden'] == 'Y') {	
 		$fb_thumb_url = $_POST['upload_image'];  
 		update_option('upload_image', $fb_thumb_url); 
@@ -12,7 +11,7 @@
 ?>
 
 <div class="wrap">
-	<?php    echo "<h2>Default Facebook Thumbnails</h2>"; ?>
+	<?php echo "<h2>Default Facebook Thumbnails</h2>"; ?>
 	<form name="fb_thumb_form" method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
 		<?php
 			settings_fields('fb_thumb_opt');
